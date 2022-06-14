@@ -5,6 +5,7 @@ type Data = {
   ok: boolean;
   message: string;
   method: string;
+  secret?: string;
 };
 
 export default function handler(
@@ -15,5 +16,6 @@ export default function handler(
     ok: true,
     message: "Todo Correco",
     method: req.method || "No hay metodo",
+    secret: process.env.SECRET_KEY,
   });
 }
