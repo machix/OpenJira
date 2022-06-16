@@ -16,7 +16,7 @@ export const seedData: SeedData = {
       createdAt: Date.now(),
     },
     {
-      description: "Inn-Progress: Sint fugiat ullamco ipsum id non.",
+      description: "In-Progress: Sint fugiat ullamco ipsum id non.",
       status: "in-progress",
       createdAt: Date.now() - 1000000,
     },
